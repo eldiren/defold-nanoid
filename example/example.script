@@ -1,0 +1,10 @@
+function init(self)
+    
+    local simple = nanoid.simple() 
+    local generate = nanoid.generate(5)
+    local custom = nanoid.custom("abcde", 7)
+
+    print(simple) -- _n7XMO8sd8lCDnDLmyezf 
+    print(generate) -- xgTpQ
+    print(custom) -- ecbebec
+end
